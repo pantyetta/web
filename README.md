@@ -1,3 +1,3 @@
 # web
 
-giuhub.pantyetta.com
+https://github.pantyetta.com
