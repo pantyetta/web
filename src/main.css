@@ -18,12 +18,14 @@ body{
 
 .bg{
     z-index: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
     position: fixed;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    background-image: -moz-linear-gradient(-30deg, #f6d365 0%, #fda085 100%);
-    background-image: -webkit-linear-gradient(-30deg, #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(210deg, #d8e795 0%, #ff4d91 100%);
+    background-image: -moz-linear-gradient(240deg, #d8e795 0%, #ff4d91 100%);
+    background-image: -webkit-linear-gradient(240deg, #d8e795 0%, #ff4d91 100%);
 }
 
 .content{
@@ -102,6 +104,10 @@ body{
     position: fixed;
     z-index: 10;
     box-shadow: 5px 7px 15px 0 rgba(0, 0, 0, .5);
+}
+
+.sns:hover{
+    border: 1px solid white;
 }
 
 .sns a{
