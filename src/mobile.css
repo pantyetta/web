@@ -1,0 +1,46 @@
+﻿@import "root.css";
+
+@media screen and  (max-width: 1000px) {
+    
+    .content{
+        height: 100vh;
+    }
+    
+    .icon img {
+        height: var(--mobile_icon_size);
+    }
+
+    .content_inner {
+        flex-direction: column;
+        top: 40vh;
+        transform: translate(-50%, -40%);
+        align-items: center;
+    }
+    
+    .introduction:before {
+        width: 40vh;
+        height: 0.5vh;
+        left: 0;
+        top: 1vh;
+    }
+
+    .introduction{
+        width: auto;
+    }
+
+    .intro_inner {
+        position: relative;
+        margin: 1vh 0 0 0;
+        top: 0;
+        transform: translateY(0);
+        text-align: center;
+    }
+
+    .name {
+        font-size: var(--mobile_name_font_size);
+    }
+
+    .des{
+        font-size: var(--mobile_description_font_size);
+    }
+}

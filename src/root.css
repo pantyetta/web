@@ -1,0 +1,10 @@
+﻿:root{
+    --icon_size: 50vh;
+    --name_font_size: 10vh;
+    --description_font_size: 5vh;
+    --sns_font_size: 2vh;
+
+    --mobile_icon_size: 30vh;
+    --mobile_name_font_size: 7vh;
+    --mobile_description_font_size: 3vh;
+}
