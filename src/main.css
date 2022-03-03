@@ -1,9 +1,4 @@
-﻿:root{
-    --icon_size: 50vh;
-    --name_font_size: 10vh;
-    --description_font_size: 5vh;
-    --sns_font_size: 2vh;
-}
+﻿@import "root.css";
 
 *{
     padding: 0;
@@ -63,6 +58,7 @@ body{
     background-color: white;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
+
 
 .introduction{
     position: relative;
